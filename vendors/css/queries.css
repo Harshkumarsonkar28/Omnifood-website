@@ -51,13 +51,35 @@ width: 50%;
 body{font-size: 16px;}
 section{padding: 30px 0}
 .hero-text-box{padding: 0 4%;}
+
 .col{
     width: 100%;
     margin: 0 0 4% 0;
 }
-.main-nav{
-    display: none;
-}
+/* h1{
+    margin-top: 80px;
+    font-size: 40px;
+} */
+ .main-nav {
+        display: none;
+        width: 100%;
+        background: rgba(0,0,0,0.9);
+        position: absolute;
+        top: 80px; 
+        right: 0; 
+        padding: 0;
+        text-align: center;
+        z-index: 999;
+    }
+
+    .main-nav li {
+        display: block;
+        margin: 15px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
 .app-screen{width: 40%;}
 .steps-box:first-child{text-align: center;}
 .work-step div{
@@ -69,6 +91,8 @@ section{padding: 30px 0}
 }
 .work-step{margin-bottom: 30px;} 
 .work-step:last-of-type{margin-bottom: 29px;}
+
+
 }
 
 
